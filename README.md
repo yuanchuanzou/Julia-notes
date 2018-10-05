@@ -3,16 +3,20 @@ Julia学习笔记，起源于： https://github.com/eschnett/2018-computational-
 随着使用过程逐渐增加内容。
 
 [TOC]
+
 ## 基本用法
+
 ### 进入和退出packge模式
 进入"]"
 退出 “Backspace”
+
 ### 进入、退出shell模式
 进入";"
 退出 “Backspace”
 
 ### Jupyter 可作为一个线上Julia笔记本
 类似methamatica的notebook。可以针对各种语言。
+
 
 
 ## 一些有趣或者有用的包
@@ -102,6 +106,24 @@ https://github.com/JuliaPy
 https://github.com/JuliaStats
 
 ## 一些实例
+
+### 新建一个REPL（项目）
+1. 进入pkg模式 ]
+2. generate aaa 这样就会新建一个目录了，里边有一个hello world的实例文件，修改它
+3. 在系统命令行中，或者目录管理器中，当前aaa文件夹下， 新建test文件夹
+4. 在test文件夹下新建runtests.jl, 内容为 
+using aaa
+@show greet()
+5. 回到julia的pkg模式， 输入activite . (以后每次都在aaa文件夹下打开Julia)
+6. pkg模型输入 test，就自动执行，不过很慢
+
+### 用Julia编程
+本来runtests.jl就可以用来编程了，想做什么都在这上面写，但是每次在pkg模式下速度特别慢，它要每次都重新载入各种包的。
+
+正确的做法是 \sout{在工作目录下建一个bbb.jl文件，内容如下：}
+julia> include("runtests.jl")
+第一次比较慢，之后就不会重复载入，而变得快了。
+
 ### 使用RCall调用R中的各种包
 以使用R中的ggplot2为例，有了它就不需要别的画图工具了。
 1. 安装R，Ubuntu下 sudo apt-get install r-base
