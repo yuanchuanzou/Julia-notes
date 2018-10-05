@@ -99,7 +99,8 @@ https://github.com/JuliaPy
 ###JuliaStats 用Julia做统计
 https://github.com/JuliaStats
 
-##使用RCall调用R中的各种包
+## 一些实例
+### 使用RCall调用R中的各种包
 以使用R中的ggplot2为例，有了它就不需要别的画图工具了。
 1. 安装R，Ubuntu下 sudo apt-get install r-base
 2. 在R下安装ggplot2的包
