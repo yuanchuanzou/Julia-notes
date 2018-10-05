@@ -111,4 +111,4 @@ install.packages()会弹出对话框，让选安装什么；或者直接install.
 注意，以后可能需要新的包，每次在R中新安装了包之后，在Julia要重新做，命令是 build RCall
 4. using RCall; 
 @rlibrary ggplot2
-就可以用了。
+就可以用了。(目前有个问题是qplot还不能用，ggplot是可以的，用起来麻烦一点儿，但一旦设置好，可重复使用。)
