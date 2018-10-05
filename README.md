@@ -1,5 +1,6 @@
 # Julia-notes
-Julia学习笔记
+Julia学习笔记，起源于： https://github.com/eschnett/2018-computational-physics-course 
+随着使用过程逐渐增加内容。
 
 [TOC]
 ## 基本用法
