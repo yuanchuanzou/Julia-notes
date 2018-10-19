@@ -137,7 +137,7 @@ install.packages()会弹出对话框，让选安装什么；或者直接install.
 就可以用了。(目前有个问题是qplot还不能用，ggplot是可以的，用起来麻烦一点儿，但一旦设置好，可重复使用。)
 
 ### 一个关于global的问题
-···
+```
 e2 = e[1:N2-1] #truncate the tails, which was set to be larger
 P2 = P[1:N2-1]
 tp3 = P2[1]
