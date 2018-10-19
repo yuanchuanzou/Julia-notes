@@ -138,4 +138,13 @@ install.packages()会弹出对话框，让选安装什么；或者直接install.
 
 ### 一个关于global的问题
 ···
-
+e2 = e[1:N2-1] #truncate the tails, which was set to be larger
+P2 = P[1:N2-1]
+tp3 = P2[1]
+tp4 = ones(N2-1)
+tp4[1] = tp3
+for i in 2:N2-1
+    global(tp3) = tp3 + P2[i]
+    tp4[i] = tp3
+end
+```
