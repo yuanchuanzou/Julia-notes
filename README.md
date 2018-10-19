@@ -137,6 +137,7 @@ install.packages()会弹出对话框，让选安装什么；或者直接install.
 就可以用了。(目前有个问题是qplot还不能用，ggplot是可以的，用起来麻烦一点儿，但一旦设置好，可重复使用。)
 
 ### 一个关于global的问题
+在下面这段code中，我必须在for循环中把tp3设成global
 ```
 e2 = e[1:N2-1] #truncate the tails, which was set to be larger
 P2 = P[1:N2-1]
@@ -148,3 +149,6 @@ for i in 2:N2-1
     tp4[i] = tp3
 end
 ```
+原因是这是主程序中，然后主程序的“tp3 = P2[1]”把它当成了global的，但是在for里边被当成local的。结果就会显示说在“global(tp3) = tp3 + P2[i]”如果变成“tp3 = tp3 + P2[i]”就会显示错误说tp3没有定义。但加个global也太难看了。
+解决办法是把这段程序包到一个function里边去。在function里边，就不需要定义global了。
+
