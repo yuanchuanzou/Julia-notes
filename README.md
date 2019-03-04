@@ -6,6 +6,9 @@ Julia学习笔记，起源于： https://github.com/eschnett/2018-computational-
 
 ## 基本用法
 
+### 运行一个jl脚本
+见 https://github.com/yuanchuanzou/Julia-notes#%E7%94%A8julia%E7%BC%96%E7%A8%8B
+
 ### 进入和退出packge模式
 进入"]"
 退出 “Backspace”
