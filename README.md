@@ -12,6 +12,10 @@ https://juliabox.com/ 在线的，什么都配置好了，直接去用就是了
 #### 2 安装 Julia
 #### 3 使用 Jupyter+Julia
 
+### 一些参考页面
+首先当然是搜索啦。
+https://juliadocs.github.io/Julia-Cheat-Sheet/ cheat sheet，可以不时地去看看。
+
 ### 运行一个jl脚本
 见 “用Julia编程” https://github.com/yuanchuanzou/Julia-notes#%E7%94%A8julia%E7%BC%96%E7%A8%8B
 
