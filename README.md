@@ -7,9 +7,10 @@ Julia学习笔记，起源于： https://github.com/eschnett/2018-computational-
 ## 基本用法
 
 ### 如何用起来
-####1 最简单的办法 https://juliabox.com/ 在线的，什么都配置好了，直接去用就是了
-####2 安装 Julia
-####3 使用 Jupyter+Julia
+#### 1 最简单的办法 
+https://juliabox.com/ 在线的，什么都配置好了，直接去用就是了
+#### 2 安装 Julia
+#### 3 使用 Jupyter+Julia
 
 ### 运行一个jl脚本
 见 “用Julia编程” https://github.com/yuanchuanzou/Julia-notes#%E7%94%A8julia%E7%BC%96%E7%A8%8B
