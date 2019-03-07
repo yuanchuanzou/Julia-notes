@@ -10,7 +10,7 @@ Julia学习笔记，起源于： https://github.com/eschnett/2018-computational-
 #### 1 最简单的办法 
 https://juliabox.com/ 在线的，什么都配置好了，直接去用就是了
 #### 2 安装 Julia
-在Ubuntu下可以这样 
+在Ubuntu下可以这样 ![avatar](11.png.jpg)
 #### 3 使用 Jupyter+Julia
 
 ### 一些参考页面
