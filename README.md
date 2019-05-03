@@ -43,6 +43,9 @@ https://juliadocs.github.io/Julia-Cheat-Sheet/ cheat sheet，可以不时地去�
 
 Julia各种包的官网在：https://pkg.julialang.org/
 
+### Julia.jl 分门别类地列举了各种科学计算已有的Julia包
+https://github.com/svaksha/Julia.jl
+
 ### ApproxFun.jl
 把任何一个函数变成多项式，这样可以轻松做微积分，求根。当然精度不那么高了。
 
