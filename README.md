@@ -91,6 +91,10 @@ https://github.com/svaksha/Julia.jl
 ### JuMP Modeling language for Mathematical Optimization (linear, mixed-integer, conic, semidefinite, nonlinear)
 https://github.com/JuliaOpt/JuMP.jl
 
+### NBInclude.jl 将IJulia的文件直接想jl一样运行
+这解决了用IJulia写的东西想在Julia命令行下运行的问题。应该只能小应用一下，不能作为开发的主力。
+https://github.com/stevengj/NBInclude.jl
+
 ### PackageCompiler 把开发的包编译成可执行文件
 https://github.com/JuliaLang/PackageCompiler.jl
 
