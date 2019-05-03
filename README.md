@@ -58,6 +58,9 @@ https://github.com/JuliaMath/Calculus.jl
 ### CAS 针对csv文件的读写
 https://github.com/JuliaData/CSV.jl
 
+### Cosmology.jl 计算宇宙学距离
+https://github.com/JuliaAstro/Cosmology.jl
+
 ### DifferentialEquations 数值解微分方程
 https://github.com/JuliaDiffEq/DifferentialEquations.jl
 这个包看起来很完整了。应该属于Julia的一个重量级的功能。
